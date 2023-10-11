@@ -1,4 +1,4 @@
-# vite-plugin-ApiMock
+# vite-plugin-apimock
 
 **中文** | [English](./README.en_US.md)
 
@@ -19,13 +19,13 @@
 ## 🪝 安装
 
 ```bash
-npm i -D vite-plugin-ApiMock
+npm i -D vite-plugin-apimock
 ```
 ```bash
-yarn add -D vite-plugin-ApiMock
+yarn add -D vite-plugin-apimock
 ```
 ```bash
-pnpm add -D vite-plugin-ApiMock
+pnpm add -D vite-plugin-apimock
 ```
 
 ## 🚩 用法
@@ -33,8 +33,8 @@ pnpm add -D vite-plugin-ApiMock
 ```ts
 // vite.config.ts
 import { defineConfig } from 'vite'
-import createMockApi from 'vite-plugin-ApiMock'
-import { ApiData } from "vite-plugin-apiMock";
+import createMockApi from 'vite-plugin-apimock'
+import { ApiData } from "vite-plugin-apimock";
 
 const apiList: ApiData[] = [
     {

@@ -1,11 +1,11 @@
 {
-  "name": "vite-plugin-ApiMock",
+  "name": "vite-plugin-apimock",
   "version": "1.0.0",
   "description": "A Vite plugin for API mocking.",
   "keywords": [
     "vite",
     "vite-plugin",
-    "ApiMock"
+    "apimock"
   ],
   "author": "pangxiaoli <qiubit@qiubit.cc>",
   "homepage": "https://github.com/pangxiaoli/vite-plugin-ApiMock",

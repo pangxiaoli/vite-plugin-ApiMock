@@ -10,7 +10,7 @@ export type ApiData = {
 
 function createMockApi(apilist: ApiData[]) {
     return {
-        name: 'vite-plugin-ApiMock',
+        name: 'vite-plugin-apimock',
         configureServer(server: ViteDevServer) {
             server.middlewares.use(createApiMiddleware(apilist));
         },
