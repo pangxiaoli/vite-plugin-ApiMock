@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": false,
+    "outDir": "./dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+  },
+  "include": [
+    "./index.ts",
+  ],
+  "exclude": [
+    "./src",
+  ]
+}
